@@ -2,7 +2,7 @@
 // The video
 let video;
 // For displaying the label
-let label = "waiting...";
+let label = "Carregando...";
 // The classifier
 let classifier;
 let modelURL = 'https://teachablemachine.withgoogle.com/models/VqRXy2aS/';
@@ -13,7 +13,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(640, 520);
+  createCanvas(900, 820);
   // Create the video
   video = createCapture(VIDEO);
   video.hide();
