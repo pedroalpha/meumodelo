@@ -5,7 +5,7 @@ let video;
 let label = "waiting...";
 // The classifier
 let classifier;
-let modelURL = 'https://teachablemachine.withgoogle.com/models/FIOxNa_D/';
+let modelURL = 'https://teachablemachine.withgoogle.com/models/VqRXy2aS/';
 
 // STEP 1: Load the model!
 function preload() {
